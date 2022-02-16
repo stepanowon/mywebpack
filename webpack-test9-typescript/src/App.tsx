@@ -1,5 +1,5 @@
 import React from "react";
-import Calc from "./User";
+import User from "./User";
 import data from "./data.json";
 import style from "./style.module.css";
 import "./style2.css";
@@ -32,7 +32,7 @@ const App = () => {
         <tbody>{emplist}</tbody>
       </table>
       <div className="mystyle">
-        <Calc name={"홍길동"} age={20} />
+        <User name={"홍길동"} age={20} />
       </div>
     </div>
   );
